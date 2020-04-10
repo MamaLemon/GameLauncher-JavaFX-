@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #22467d;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller">
+   <children>
+      <AnchorPane layoutY="80.0" prefHeight="619.0" prefWidth="1000.0" style="-fx-background-color: #e6edec;">
+         <children>
+            <TextField fx:id="loginTextField" layoutX="605.0" layoutY="204.0" prefHeight="20.0" prefWidth="272.0" promptText="Логин" style="-fx-background-color: #e6edec; -fx-border-color: #22467d; -fx-border-radius: 15;">
+               <font>
+                  <Font name="Gabriola" size="22.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="PasswordField" layoutX="605.0" layoutY="266.0" prefHeight="43.0" prefWidth="272.0" promptText="Password" style="-fx-background-color: #e6edec; -fx-border-color: #22467d; -fx-border-radius: 15;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="690.0" layoutY="120.0" text="Sign In" textFill="#f8dd17">
+               <font>
+                  <Font name="Gabriola" size="47.0" />
+               </font>
+            </Label>
+            <Button fx:id="SignInButton" layoutX="690.0" layoutY="325.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="102.0" style="-fx-background-color: #22467d;" text="Let's go!" textFill="#e6edec">
+               <font>
+                  <Font name="Gabriola" size="19.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutY="593.0" prefHeight="26.0" prefWidth="1000.0" style="-fx-background-color: #22467d;">
+               <children>
+                  <Label layoutX="890.0" layoutY="5.0" text="\@Mama1emon" textFill="#ddc91b">
+                     <font>
+                        <Font name="Georgia" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="338.0" fitWidth="348.0" layoutX="122.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/strategy_business_chess-512.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label layoutX="373.0" layoutY="4.0" prefHeight="83.0" prefWidth="254.0" text="GameLauncher" textFill="#ddc91b">
+         <font>
+            <Font name="Gabriola" size="53.0" />
+         </font>
+      </Label>
+      <Button fx:id="SignUpButton" layoutX="867.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="106.0" style="-fx-background-color: #e6edec;" text="Sign Up">
+         <font>
+            <Font name="Franklin Gothic Medium" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
